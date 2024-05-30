@@ -1,5 +1,8 @@
 import "../font.css?inline";
 import { HiArrowNarrowRight } from "react-icons/hi";
+import { AnimatePresence, motion } from "framer-motion";
+import HeroTypeWriter from "./HeroTypeWriter";
+
 export default function home() {
   return (
     <div name='home' className='bg-[#0a192f] w-full h-screen'>
@@ -9,7 +12,11 @@ export default function home() {
           Aryan Sadeghyan
         </h1>
         <h2 className='text-4xl sm:text-7xl font-bold text-[#8892b0] '>
-          Im a full stack Developer.
+          And I'm{" "}
+          <HeroTypeWriter
+            speed={100}
+            words={["a Developer...", "a Freelancer...", "a ui/ux designer"]}
+          />
         </h2>
         <p className='text-[#8892b0] py-4 max-w-[700px]'>
           Im a full-stack developer specializing in building and occasionally
