@@ -1,6 +1,6 @@
 import "../font.css?inline";
 import { HiArrowNarrowRight } from "react-icons/hi";
-import { AnimatePresence, motion } from "framer-motion";
+
 import HeroTypeWriter from "./HeroTypeWriter";
 
 export default function home() {
