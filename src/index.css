@@ -4,6 +4,12 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  background-image: url("./assets/herobg.png");
+  background-size: cover;
+  background-position: center;
+}
+
 @layer base {
   body {
     @apply font-[Raleway];
