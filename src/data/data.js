@@ -4,10 +4,10 @@ import RealEst from "../assets/realestate.jpg";
 export const data = [
   {
     id: 1,
-    name: "React JS Application",
+    name: "mern stack Application",
     image: WorkIm,
-    github: "",
-    live: "",
+    github: "https://github.com/aryan-sadeghyan/fullstack-realstate-app",
+    live: "https://fullstack-realstate-app.onrender.com/",
   },
   {
     id: 2,
