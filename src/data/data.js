@@ -1,11 +1,12 @@
-import WorkIm from "../assets/workImg.jpeg";
+import thumbnail from "../assets/thumnail.png";
 import RealEst from "../assets/realestate.jpg";
+import WorkIm from "../assets/workImg.jpeg";
 
 export const data = [
   {
     id: 1,
     name: "mern stack Application",
-    image: WorkIm,
+    image: thumbnail,
     github: "https://github.com/aryan-sadeghyan/fullstack-realstate-app",
     live: "https://fullstack-realstate-app.onrender.com/",
   },
